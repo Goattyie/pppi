@@ -12,7 +12,7 @@
 
         }
 
-        public void ChangeFont()
+        public void ChangeFont(Font font)
         {
 
         }
