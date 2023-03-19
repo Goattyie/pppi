@@ -16,5 +16,10 @@
         {
 
         }
+
+        public void CutImage(Bitmap bitmap)
+        {
+
+        }
     }
 }
