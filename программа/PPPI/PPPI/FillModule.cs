@@ -2,17 +2,17 @@
 {
     public class FillModule
     {
-        public void ChooseColor()
+        public void ChooseColor(Color color, Bitmap img)
         {
 
         }
 
-        public void Fill()
+        public void Fill(Bitmap img, Color color)
         {
 
         }
 
-        public void DiscardFill()
+        public void DiscardFill(Bitmap img)
         {
 
         }
