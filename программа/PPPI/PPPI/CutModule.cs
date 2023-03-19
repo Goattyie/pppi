@@ -19,5 +19,10 @@ namespace PPPI
         {
 
         }
+
+        public void Cut()
+        {
+
+        }
     }
 }
