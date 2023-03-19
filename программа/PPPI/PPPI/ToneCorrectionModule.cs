@@ -2,6 +2,9 @@
 {
     public class ToneCorrectionModule
     {
-        
+        public void Correct()
+        {
+
+        }
     }
 }
