@@ -12,5 +12,10 @@
         {
 
         }
+
+        public void Clear(Bitmap img)
+        {
+
+        }
     }
 }
