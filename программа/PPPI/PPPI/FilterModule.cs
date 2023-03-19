@@ -13,5 +13,10 @@
         {
 
         }
+
+        public void RemoveFilter(Bitmap img) 
+        { 
+        
+        }
     }
 }
