@@ -12,5 +12,10 @@
         {
 
         }
+
+        public void Remove(Bitmap img, Channel channel) 
+        { 
+        
+        }
     }
 }
