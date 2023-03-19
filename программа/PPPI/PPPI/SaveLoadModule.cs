@@ -2,12 +2,12 @@
 {
     public class SaveLoadModule
     {
-        public void Save()
+        public void Save(Bitmap img)
         {
 
         }
 
-        public void Load()
+        public void Load(Bitmap img)
         {
 
         }
