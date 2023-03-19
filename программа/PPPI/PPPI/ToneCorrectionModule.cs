@@ -2,17 +2,17 @@
 {
     public class ToneCorrectionModule
     {
-        public void Correct()
+        public void Correct(Bitmap img)
         {
 
         }
 
-        public void DisableCorrect()
+        public void DisableCorrect(Bitmap img)
         {
 
         }
 
-        public void DiscardCorrect()
+        public void DiscardCorrect(Bitmap img)
         {
 
         }
