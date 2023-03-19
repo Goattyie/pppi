@@ -17,5 +17,10 @@
         { 
         
         }
+
+        public void ChangeVisibility(Bitmap img, Channel channel)
+        {
+
+        }
     }
 }
