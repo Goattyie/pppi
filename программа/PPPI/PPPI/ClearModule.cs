@@ -8,5 +8,9 @@
 
     public class ClearModule
     {
+        public void SetForm(ClearForm form)
+        {
+
+        }
     }
 }
