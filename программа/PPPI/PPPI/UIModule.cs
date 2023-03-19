@@ -7,5 +7,9 @@
     }
     public class UIModule
     {
+        public void ChangeTheme(Themes theme)
+        {
+
+        }
     }
 }
