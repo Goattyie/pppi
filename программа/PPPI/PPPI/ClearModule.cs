@@ -13,7 +13,7 @@
 
         }
 
-        public void Clear(Bitmap img)
+        public void Clear(Bitmap img, ClearForm form)
         {
 
         }
