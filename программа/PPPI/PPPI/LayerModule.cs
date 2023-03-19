@@ -12,7 +12,7 @@
 
         }
 
-        public void UpdateLayer() 
+        public void UpdateLayer(Bitmap bitmap, LayerModule layer) 
         { 
         
         }
