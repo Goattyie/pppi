@@ -17,5 +17,10 @@
         {
 
         }
+
+        public void Disable(Bitmap img, Mask mask) 
+        { 
+        
+        }
     }
 }
