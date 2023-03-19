@@ -2,5 +2,9 @@
 {
     public class StudyModule
     {
+        public void GetBook()
+        {
+
+        }
     }
 }
