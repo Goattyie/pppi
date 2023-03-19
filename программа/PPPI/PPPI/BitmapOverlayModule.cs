@@ -12,6 +12,9 @@
 
         }
 
+        /// <summary>
+        /// Отменяет перекрещивание изображений
+        /// </summary>
         public void DiscardCross()
         {
 
