@@ -2,12 +2,12 @@
 {
     public class SmudgeModule
     {
-        public void Smudge()
+        public void Smudge(Bitmap img)
         {
 
         }
 
-        public void DisableChanges()
+        public void DisableChanges(Bitmap img)
         {
 
         }
