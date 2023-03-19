@@ -2,17 +2,17 @@
 {
     public class ColorCorrectionModule
     {
-        public void Correct()
+        public void Correct(Bitmap img)
         {
 
         }
 
-        public void DisableChanges()
+        public void DisableChanges(Bitmap img)
         {
 
         }
 
-        public void DiscardChanges()
+        public void DiscardChanges(Bitmap img)
         {
 
         }
