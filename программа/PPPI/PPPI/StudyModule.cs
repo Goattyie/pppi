@@ -6,5 +6,10 @@
         {
 
         }
+
+        public void OpenLink(string link)
+        {
+
+        }
     }
 }
