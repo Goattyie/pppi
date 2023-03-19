@@ -2,5 +2,9 @@
 {
     public class BitmapModule
     {
+        public void CopyImage(Bitmap bitmap)
+        {
+
+        }
     }
 }
