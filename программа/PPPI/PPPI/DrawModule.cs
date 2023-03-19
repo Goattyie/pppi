@@ -20,5 +20,10 @@ namespace PPPI
         {
 
         }
+
+        public void DiscardChanges()
+        {
+
+        }
     }
 }
