@@ -8,5 +8,10 @@ namespace PPPI
         {
 
         }
+
+        public void Unseparate(Bitmap img) 
+        { 
+        
+        }
     }
 }
