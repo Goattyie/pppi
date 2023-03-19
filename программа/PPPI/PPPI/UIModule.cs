@@ -1,6 +1,11 @@
 ﻿namespace PPPI
 {
-    internal class UIModule
+    public enum Themes
+    {
+        Light,
+        Dark
+    }
+    public class UIModule
     {
     }
 }
