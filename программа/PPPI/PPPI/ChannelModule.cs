@@ -8,6 +8,9 @@
 
     internal class ChannelModule
     {
-        
+        public void Add(Bitmap img, Channel channel)
+        {
+
+        }
     }
 }
