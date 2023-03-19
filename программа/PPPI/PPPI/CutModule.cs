@@ -8,5 +8,9 @@
 
     public class CutModule
     {
+        public void SetForm(CutForm form)
+        {
+
+        }
     }
 }
