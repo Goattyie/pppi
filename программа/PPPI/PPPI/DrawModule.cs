@@ -9,6 +9,9 @@
 
     public class DrawModule
     {
-        
+        public void ChooseBrush()
+        {
+
+        }
     }
 }
