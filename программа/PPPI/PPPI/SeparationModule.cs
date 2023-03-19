@@ -1,4 +1,4 @@
-﻿namespace PPPI.Modules
+﻿namespace PPPI
 {
     internal class SeparationModule
     {
