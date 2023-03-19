@@ -11,5 +11,10 @@
         {
 
         }
+
+        public void SetText(string test)
+        {
+
+        }
     }
 }
