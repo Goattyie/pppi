@@ -14,7 +14,7 @@
 
         }
 
-        public void RemoveFilter(Bitmap img) 
+        public void RemoveFilter(Bitmap img, Filters filter) 
         { 
         
         }
