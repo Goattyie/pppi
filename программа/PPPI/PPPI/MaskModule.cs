@@ -8,6 +8,9 @@
 
     internal class MaskModule
     {
-        
+        public void Add(Bitmap img, MaskType type)
+        {
+
+        }
     }
 }
