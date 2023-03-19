@@ -2,5 +2,9 @@
 {
     public class SmudgeModule
     {
+        public void Smudge()
+        {
+
+        }
     }
 }
