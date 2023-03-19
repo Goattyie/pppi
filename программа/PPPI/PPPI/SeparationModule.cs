@@ -13,5 +13,10 @@ namespace PPPI
         { 
         
         }
+
+        public void AbortSeparate(Bitmap img)
+        {
+
+        }
     }
 }
