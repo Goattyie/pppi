@@ -2,5 +2,9 @@
 {
     public class FillModule
     {
+        public void ChooseColor()
+        {
+
+        }
     }
 }
