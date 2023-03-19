@@ -6,5 +6,10 @@
         {
 
         }
+
+        public void InsertImage(Bitmap bitmap)
+        {
+
+        }
     }
 }
