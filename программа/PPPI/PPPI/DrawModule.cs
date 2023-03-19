@@ -1,4 +1,6 @@
-﻿namespace PPPI
+﻿using System.Drawing.Drawing2D;
+
+namespace PPPI
 {
     public enum Brush
     {
@@ -10,6 +12,11 @@
     public class DrawModule
     {
         public void ChooseBrush()
+        {
+
+        }
+
+        public void Draw(CoordinateSpace[] coordinates)
         {
 
         }
