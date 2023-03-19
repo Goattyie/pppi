@@ -2,5 +2,9 @@
 {
     public class ColorCorrectionModule
     {
+        public void Correct()
+        {
+
+        }
     }
 }
