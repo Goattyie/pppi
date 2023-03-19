@@ -13,7 +13,7 @@
 
     internal class MaskModule
     {
-        public void Add(Bitmap img, Mask mask)
+        public void Enable(Bitmap img, Mask mask)
         {
 
         }
