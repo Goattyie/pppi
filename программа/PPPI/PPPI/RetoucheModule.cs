@@ -2,7 +2,7 @@
 
 namespace PPPI
 {
-    internal class RetoucheModule
+    public class RetoucheModule
     {
         public void RetoucheModeOn(Bitmap img)
         {
