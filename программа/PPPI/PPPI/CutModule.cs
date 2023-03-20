@@ -8,6 +8,9 @@ namespace PPPI
         Circle
     }
 
+    /// <summary>
+    /// Модуль обрезки
+    /// </summary>
     public class CutModule
     {
         public void SetForm(CutForm form)
