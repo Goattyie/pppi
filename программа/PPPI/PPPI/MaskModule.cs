@@ -11,7 +11,11 @@
         Vector
     }
 
-    internal class MaskModule
+
+    /// <summary>
+    /// Модуль работы с масками
+    /// </summary>
+    public class MaskModule
     {
         public void Enable(Bitmap img, Mask mask)
         {
