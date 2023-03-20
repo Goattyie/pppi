@@ -6,6 +6,9 @@
         public object[] Params { get; set; }
     }
 
+    /// <summary>
+    /// Модуль для работы с каналами
+    /// </summary>
     internal class ChannelModule
     {
         public void Add(Bitmap img, Channel channel)
