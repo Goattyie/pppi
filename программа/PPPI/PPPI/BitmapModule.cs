@@ -1,5 +1,8 @@
 ﻿namespace PPPI
 {
+    /// <summary>
+    /// Модуль работы с изображениями
+    /// </summary>
     public class BitmapModule
     {
         public void CopyImage(Bitmap bitmap)
