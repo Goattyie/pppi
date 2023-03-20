@@ -7,6 +7,9 @@
         Q
     }
 
+    /// <summary>
+    /// Модуль фильтрации
+    /// </summary>
     public class FilterModule
     {
         public void AddFilter(Bitmap img, Filters filter)
