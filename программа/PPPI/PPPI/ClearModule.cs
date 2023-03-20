@@ -6,6 +6,9 @@
         Circle
     }
 
+    /// <summary>
+    /// Модуль очищения
+    /// </summary>
     public class ClearModule
     {
         public void SetForm(ClearForm form)
