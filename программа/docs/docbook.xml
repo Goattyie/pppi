@@ -1,0 +1,401 @@
+<book xmlns="http://docbook.org/ns/docbook" version="5.0">
+  <info>
+    <title>Документация растрового редактора</title>
+  </info>
+
+  <chapter>
+    <title>Тип ChannelModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип ChannelModule представляет собой класс для для работы с каналами</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>Add()</literal></title>
+        <para>Метод для добавления канала к изображению</para>
+      </section>
+      <section>
+        <title><literal>Remove()</literal></title>
+        <para>Метод для удаления канала</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип ClearModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип ClearModule представляет собой модуль для работы с очисткой изображений</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>SetForm()</literal></title>
+        <para>Устанавливает форму ластика</para>
+      </section>
+    	<section>
+        <title><literal>Clear()</literal></title>
+        <para>Очищает изображение</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип ColorCorrectionModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип ColorCorrectionModule представляет класс для работы с цветокоррекцией</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>Correct()</literal></title>
+        <para>Метод для коррекции света</para>
+      </section>
+	<section>
+        <title><literal>DisableChanges()</literal></title>
+        <para>Метод отключения цветокоррекции</para>
+      </section>
+	<section>
+        <title><literal>DiscardChanges()</literal></title>
+        <para>Метод отмены изменений</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип CutModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип CutModule представляет класс для обрезки изображений</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>SetForm()</literal></title>
+        <para>Метод для установки формы обрезки</para>
+      </section>
+      <section>
+        <title><literal>Choose()</literal></title>
+        <para>Метод для выдерения области обрезания</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип DiagramModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип DiagramModule представляет класс построения диаграмм</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>CreateGistogram()</literal></title>
+        <para>Метод для создания гистограммы</para>
+      </section>
+      <section>
+        <title><literal>RemoveGistogram()</literal></title>
+        <para>Метод для удаления гистограммы</para>
+      </section>
+      <section>
+        <title><literal>CreateСurve()</literal></title>
+        <para>Метод для создание кривой</para>
+      </section>
+	<section>
+        <title><literal>RemoveСurve()</literal></title>
+        <para>Метод для удаления кривой</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип BitmapModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип BitmapModule представляет класс для работы с изображениями</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>CopyImage()</literal></title>
+        <para>Метод для копирования изображения</para>
+      </section>
+	<section>
+        <title><literal>InsertImage()</literal></title>
+        <para>Метод для вставки изображения</para>
+      </section>
+	<section>
+        <title><literal>RemoveImage()</literal></title>
+        <para>Метод для удаления изображения</para>
+      </section>
+	<section>
+        <title><literal>CutImage()</literal></title>
+        <para>Метод для вырезания изображения</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип DrawModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип DrawModule представляет класс для рисования</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>ChooseBrush()</literal></title>
+        <para>Метод для выбора кисти</para>
+      </section>
+	<section>
+        <title><literal>Draw()</literal></title>
+        <para>Метод для рисования</para>
+      </section>
+	<section>
+        <title><literal>DiscardChanges()</literal></title>
+        <para>Метод отмены изменений</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип FillModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип FillModule представляет класс заливки цветов</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>ChooseColor()</literal></title>
+        <para>Метод выбора цвета</para>
+      </section>
+	<section>
+        <title><literal>Fill()</literal></title>
+        <para>Метод заливки</para>
+      </section>
+	<section>
+        <title><literal>DiscardFill()</literal></title>
+        <para>Метод отмены заливки</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип FilterModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип FilterModule представляет класс для работы с фильтрами</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>AddFilter()</literal></title>
+        <para>Метод добавления фильтра</para>
+      </section>
+	<section>
+        <title><literal>RemoveFilter()</literal></title>
+        <para>Метод удаления фильтра</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип LayerModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип LayerModule представляет класс работы со слоями</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>CreateLayer()</literal></title>
+        <para>Метод создания слоя</para>
+      </section>
+	<section>
+        <title><literal>RemoveLayer()</literal></title>
+        <para>Метод удаления слоя</para>
+      </section>
+	<section>
+        <title><literal>UpdateLayer()</literal></title>
+        <para>Метод обновления слоя</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип MaskModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип MaskModule представляет класс для работы с масками</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>Enable()</literal></title>
+        <para>Метод для включения маски</para>
+      </section>
+	<section>
+        <title><literal>Disable()</literal></title>
+        <para>Метод для выключения маски</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип RetoucheModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип RetoucheModule представляет класс для работы с ретушью</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>RetoucheModeOn()</literal></title>
+        <para>Метод включения режима ретуширования</para>
+      </section>
+	<section>
+        <title><literal>RetoucheModeOff()</literal></title>
+        <para>Метод выключения режима ретуширования</para>
+      </section>
+	<section>
+        <title><literal>Retouche()</literal></title>
+        <para>Метод ретуширования</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип SaveLoadModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип SaveLoadModule представляет класс для работы с загрузками/сохранения</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>Save()</literal></title>
+        <para>Метод сохранения изображения</para>
+      </section>
+      <section>
+        <title><literal>Load()</literal></title>
+        <para>Метод загрузки изображения</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип TextModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип TextModule представляет класс для работы с текстом</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>ChooseFont()</literal></title>
+        <para>Метод для выбора шрифта</para>
+      </section>
+	<section>
+        <title><literal>ChooseSize()</literal></title>
+        <para>Метод для выбора размера текста</para>
+      </section>
+	<section>
+        <title><literal>SetText()</literal></title>
+        <para>Метод для установки текста</para>
+      </section>
+	<section>
+        <title><literal>RemoveText()</literal></title>
+        <para>Метод удаления текста</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип StudyModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип StudyModule представляет класс для обучения работы в системе</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>GetBook()</literal></title>
+        <para>Метод получения справки</para>
+      </section>
+      <section>
+        <title><literal>OpenLink()</literal></title>
+        <para>Метод открытия ссылки</para>
+      </section>
+	<section>
+        <title><literal>OpenVideo()</literal></title>
+        <para>Метод открытия видео</para>
+      </section>
+	<section>
+        <title><literal>CloseBook()</literal></title>
+        <para>Метод закрытия справки</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип ToneCorrectionModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип ToneCorrectionModule представляет класс для работы с тоновой коррекцией</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>Correct()</literal></title>
+        <para>Метод коррекции</para>
+      </section>
+      <section>
+        <title><literal>DisableCorrect()</literal></title>
+        <para>Метод отключения коррекции</para>
+      </section>
+	<section>
+        <title><literal>DiscardCorrect()</literal></title>
+        <para>Метод отмены изменений</para>
+      </section>
+    </section>
+  </chapter>
+
+  <chapter>
+    <title>Тип UIModule</title>
+    <section>
+      <title>Описание</title>
+      <para>Тип UIModule представляет класс для работы с внешним видом системы</para>
+    </section>
+
+    <section>
+      <title>Методы</title>
+      <section>
+        <title><literal>ChangeTheme()</literal></title>
+        <para>Метод смены темы</para>
+      </section>
+      <section>
+        <title><literal>ChangeFont()</literal></title>
+        <para>Метод смены шрифа в системе</para>
+      </section>
+    </section>
+  </chapter>
+</book>
