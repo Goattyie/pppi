@@ -1,8 +1,5 @@
 ﻿namespace PPPI
 {
-    /// <summary>
-    /// Модуль заливки
-    /// </summary>
     public class FillModule
     {
         public void ChooseColor(Color color, Bitmap img)

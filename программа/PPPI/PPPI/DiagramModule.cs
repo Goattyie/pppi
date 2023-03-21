@@ -2,9 +2,6 @@
 
 namespace PPPI
 {
-    /// <summary>
-    /// Модуль диаграмм
-    /// </summary>
     public class DiagramModule
     {
         public void CreateGistogram(Bitmap img, CoordinateSpace coordinateSpace)

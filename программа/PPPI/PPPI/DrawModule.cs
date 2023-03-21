@@ -9,9 +9,6 @@ namespace PPPI
         Large
     }
 
-    /// <summary>
-    /// Модуль рисования
-    /// </summary>
     public class DrawModule
     {
         public void ChooseBrush()
